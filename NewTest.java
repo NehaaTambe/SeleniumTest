@@ -7,5 +7,6 @@ public class NewTest {
   public void f() {
     System.setProperty("","");
     WebDriver driver=new ChromeDriver();
+    driver.getUrl("");
   }
 }
